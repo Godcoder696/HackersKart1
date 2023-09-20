@@ -1,1 +1,116 @@
+.pageBody{
+    height: 100vh;
+    width: 100vw;
+    background-color: #C6C6C6;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftSection{
+    height: 95vh;
+    width: 55vw;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.offers{
+    height: 45vh;
+    width: 100%;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+.leftWrapper{
+    height: 45vh;
+    width: 95%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.suggestion{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.allSuggestions{
+    height: 35vh;
+    width: 100%;
+    background-color: #E6E6E6;
+    border-radius: 1rem;
+    margin-top: 2vh;
+}
+.rightSection{
+    height: 95vh;
+    width: 40vw; 
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myCart{
+    height: 75vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkOutButton{
+    height: 13vh;
+    width: 22vw;
+    background: linear-gradient(yellowgreen,green);
+    margin-top: 5vh;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartWrapper{
+    height: 100%;
+    width: 95%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rightHeading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.add{
+    width: 12vw;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addItemHeader{
+    font-size: 1.7rem;
+    font-weight:500;
+}
+.plusImg{
+    height: 5vh;
+}
+.cartItems{
+    height: 45vh;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: #E6E6E6;
+}
+.totalBill{
+    height: 5vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.total ,.bill{
+    font-size: 2rem;
+    font-weight: 600;
+}
 
